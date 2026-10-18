@@ -30,7 +30,7 @@ namespace AudioBook
 
         public double GetFileSizeInMB()
         {
-            return this.SizeGB*1024;
+            return this.SizeGB/1024;
         }
 
         public int GetPrice()
